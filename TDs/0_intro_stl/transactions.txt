@@ -1,0 +1,6 @@
+ludo 10
+pauline 100
+flo -220
+leprof 10000
+leprof -10000
+leprof 1000
