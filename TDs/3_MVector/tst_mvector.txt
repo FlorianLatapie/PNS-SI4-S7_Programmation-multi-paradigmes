@@ -1,0 +1,32 @@
+
+********* Constructors *********
+
+mv0 : [ ]
+mv1 : [ 1.5 1.5 1.5 1.5 1.5 ]
+mv0 == mv1 : false
+
+********* Assignments *********
+
+mv0 = mv1;
+mv0 : [ 1.5 1.5 1.5 1.5 1.5 ]
+mv0 == mv1 : true
+mv1 += mv1 : [ 3 3 3 3 3 ]
+mv1 -= mv1 : [ 0 0 0 0 0 ]
+
+********* Scalar product and norm *********
+
+mv0 * mv0 : 11.25
+mv0.norm() : 3.35
+
+********* Arithmetic operations *********
+
+mv0 + mv0 : [ 3 3 3 3 3 ]
+mv0 - mv0 : [ 0 0 0 0 0 ]
+*** Bad dimensions
+
+********* Subscript *********
+
+mv0[2] = 5.5;
+mv0[2] : 5.5
+*** Out of bounds
+cmv[2] : 0
