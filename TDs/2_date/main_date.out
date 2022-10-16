@@ -1,0 +1,99 @@
+
+********* Default Constructors and Display *********
+
+d0 : November 21, 2016
+Date::today() : November 21, 2016
+
+********* Arithmetic operations *********
+
+d0 + i : November 21, 2016
+d0 + i : November 22, 2016
+d0 + i : November 23, 2016
+d0 + i : November 24, 2016
+d0 + i : November 25, 2016
+d0 + i : November 26, 2016
+d0 + i : November 27, 2016
+d0 + i : November 28, 2016
+d0 + i : November 29, 2016
+d0 + i : November 30, 2016
+d0 + i : December 1, 2016
+d0 + i : December 2, 2016
+d0 + i : December 3, 2016
+d0 + i : December 4, 2016
+d0 + i : December 5, 2016
+d0 + i : December 6, 2016
+d0 + i : December 7, 2016
+d0 + i : December 8, 2016
+d0 + i : December 9, 2016
+d0 + i : December 10, 2016
+d0 + i : December 11, 2016
+d0 + i : December 12, 2016
+d0 + i : December 13, 2016
+d0 + i : December 14, 2016
+d0 + i : December 15, 2016
+d0 + i : December 16, 2016
+d0 + i : December 17, 2016
+d0 + i : December 18, 2016
+d0 + i : December 19, 2016
+d0 + i : December 20, 2016
+d0 + i : December 21, 2016
+d0 + i : December 22, 2016
+d1 : December 31, 2003
+d1 + 0 : December 31, 2003
+d1 + 2 : January 2, 2004
+d1 + 365 : December 30, 2004
+d2 : February 1, 2003
+d2 - 0 : February 1, 2003
+d2 - 1 : January 31, 2003
+d2 - 2 : January 30, 2003
+d0 - i : November 21, 2016
+d0 - i : November 20, 2016
+d0 - i : November 19, 2016
+d0 - i : November 18, 2016
+d0 - i : November 17, 2016
+d0 - i : November 16, 2016
+d0 - i : November 15, 2016
+d0 - i : November 14, 2016
+d0 - i : November 13, 2016
+d0 - i : November 12, 2016
+d0 - i : November 11, 2016
+d0 - i : November 10, 2016
+d0 - i : November 9, 2016
+d0 - i : November 8, 2016
+d0 - i : November 7, 2016
+d0 - i : November 6, 2016
+d0 - i : November 5, 2016
+d0 - i : November 4, 2016
+d0 - i : November 3, 2016
+d0 - i : November 2, 2016
+d0 - i : November 1, 2016
+d0 - i : October 31, 2016
+d0 - i : October 30, 2016
+d0 - i : October 29, 2016
+d0 - i : October 28, 2016
+d0 - i : October 27, 2016
+d0 - i : October 26, 2016
+d0 - i : October 25, 2016
+d0 - i : October 24, 2016
+d0 - i : October 23, 2016
+d0 - i : October 22, 2016
+d0 - i : October 21, 2016
+d3 : January 1, 2003
+d3 - 1 : December 31, 2002
+d3 - 365 : January 1, 2002
+d0 - (d0 + 1) : -1
+d0 - (d0 - 1) : 1
+d3 : January 1, 2003
+d4 : December 31, 2002
+d3 - d4 : 1
+d4 - d3 : -1
+d4 - (d4 + 366) : -366
+Date(2003, 2, 10) - Date(2003, 6, 12) : -122
+d5 + 5 : May 15, 2003
+
+********* Relational operators *********
+
+Date(2004, 3, 20) <= Date(2004, 12, 8) : 1
+Date(2004, 12, 8) < Date(2004, 3, 25) : 0
+Date(2004, 12, 8) < Date(2004, 3, 20) + 5 : 0
+Enter a date (yyyy/mm/dd, terminate with EOF):
