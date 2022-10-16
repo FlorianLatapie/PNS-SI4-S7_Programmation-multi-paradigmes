@@ -1,0 +1,17 @@
+AXIOMES des <<trois unités>> (3_1)
+
+1 un seul mail : sujet=<<nom du TD>> ET contenu=SEULEMENT les fichiers demandés
+
+2 une seule date : fin de la séance (sauf mention contraire)
+
+3 une seule adresse : lippi@polytech.unice.fr
+
+INCOHERENCE : -2 points
+
+COROLLAIRES :
+
+- sujet \NOT= TD_C++..., rendu..., bobby_gpe1...
+- contenu \NOT= common_defs.h, main_date.cpp, .o, .out, sources fournis, ...
+- pas d'archives .zip, .tar, .biz, ...
+- pas de mails multiples avec différentes adresses, versions, ...
+- pas de d'envoi le lendemain...
