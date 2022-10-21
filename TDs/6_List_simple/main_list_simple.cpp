@@ -37,6 +37,7 @@ int main() {
     while (!l1.is_empty()) OUT(l1.get_first());
     OUT(l1);
 
+
     List l3;        // insert in the right place in a sorted list
     l3.insert(20);
     l3.insert(10);
@@ -45,12 +46,15 @@ int main() {
     l3.insert(3);
     OUT(l3);
 
+
     List l4;
     l4.append(20);
     l4.append(2);
     l4.append(10);
     l4.append(1);
     l4.sort(); // HINT: use get_first() and insert()
+    OUT(l4);
+
 
     OUT(l3.get_middle_value());
     OUT(l3.max());
@@ -58,6 +62,7 @@ int main() {
     EXEC(l3.max() = 7); // HINT : see MVector::operator[]
     OUT(l3);
 
+    OUT(l4);
     OUT(l4.get_last());
     OUT(l4);
 

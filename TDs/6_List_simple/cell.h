@@ -6,8 +6,17 @@
 #define INC_6_LIST_SIMPLE_CELL_H
 
 
-class Cell {
+#include <ostream>
 
+class Cell {
+public:
+
+    int value;
+    Cell *next;
+
+    friend std::ostream &operator<<(std::ostream &os, const Cell &cell);
+
+    Cell(int i = 0);
 };
 
 
