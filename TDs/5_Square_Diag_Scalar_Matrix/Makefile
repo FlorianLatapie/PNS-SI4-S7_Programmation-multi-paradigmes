@@ -1,17 +1,14 @@
-main.exe: common_defs.h MVector.o Matrix.o SquareMatrix.o DiagonalMatrix.o ScalarMatrix.o main_squarematrix.cpp
-	g++ MVector.o Matrix.o SquareMatrix.o DiagonalMatrix.o ScalarMatrix.o main_squarematrix.cpp -o main.exe
+CXX = g++
+CXXFLAGS = -W -Wall -std=c++11
 
-MVector.o: MVector.h MVector.cpp
-	g++ -c MVector.cpp
+objects = main_squarematrix.o Matrix.o MVector.o SquareMatrix.o DiagonalMatrix.o ScalarMatrix.o
 
-Matrix.o: MVector.h Matrix.h Matrix.cpp
-	g++ -c Matrix.cpp
+main: $(objects)
+	$(CXX) $(CFLAGS) -o main_squarematrix $(objects)
+$(objects): common_defs.h
+main.o matrix.o MVector.o SquareMatrix.o DiagonalMatrix.o ScalarMatrix.o: MVector.h
 
-SquareMatrix.o: Matrix.h SquareMatrix.h SquareMatrix.cpp
-	g++ -c SquareMatrix.cpp
+all: main
 
-DiagonalMatrix.o: SquareMatrix.h DiagonalMatrix.h DiagonalMatrix.cpp
-	g++ -c DiagonalMatrix.cpp
-
-ScalarMatrix.o: SquareMatrix.h ScalarMatrix.h ScalarMatrix.cpp
-	g++ -c ScalarMatrix.cpp
+clean:
+	rm main_squarematrix $(objects)

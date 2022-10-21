@@ -1,0 +1,43 @@
+UNE PREMIERE APPLICATION DES POINTEURS : les listes différences
+======================================
+
+1. POSITION DU PROBLEME
+
+On veut implanter les listes d'entiers avec la possibilité d'ajouts/suppressions EFFICACES d'éléments au début, à la fin et au milieu
+de la liste...
+
+
+2. PRINCIPE DE BASE
+
+Un élément de la liste est représenté par un objet de type <<Cell>>.
+Chaque cellule contient la valeur (ie un entier) que l'on veut stocker + un pointeur vers l'élément (ie la cellule) suivant(e)
+
+Pour manipuler une liste différence on se donne 2 pointeurs : un vers le premier élément de la liste et un deuxième vers le
+dernier élément.
+
+CONSEIL. Visualiser les listes en les dessinant avec des flèches (les pointeurs) qui relient des boîtes (les objets)
+
+
+3. DES ERREURS ET DU SUCRE SYNTAXIQUE
+
+Cell *ptr = new Cell(13);
+//
+// ptr est un pointeur vers une cellule
+
+cout << ptr.val;
+//
+// NON!
+
+cout << *ptr.val;
+//
+// NON PLUS! L'étoile n'est pas prioritaire sur le point
+
+cout << (*ptr).val;
+//
+// OK! Mais lourd et vite illisible
+
+cout << ptr->val;
+//
+// LA bonne solution
+
+RÉSUMÉ, on accède aux membres d'un objet avec le point et aux membres d'un POINTEUR sur un objet avec la flèche.
