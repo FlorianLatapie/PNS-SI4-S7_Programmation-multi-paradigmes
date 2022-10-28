@@ -11,3 +11,5 @@
 ## [4 Matrix](./4_Matrix)
 
 ## [5 Square, Diag, Scalar Matrix](./5_Square_Diag_Scalar_Matrix)
+
+## [6 List simple](./6_List_simple)
