@@ -13,3 +13,5 @@
 ## [5 Square, Diag, Scalar Matrix](./5_Square_Diag_Scalar_Matrix)
 
 ## [6 List simple](./6_List_simple)
+
+## [7 List copy](./7_List_copy)
