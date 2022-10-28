@@ -11,3 +11,5 @@
 ## [Cours 5 - Exceptions, constructeurs et destructeurs](./2022.10.07%20-%20Cours%205.md)
 
 ## [Cours 6 - Héritage, priorité des opérateurs et Makefile](./2022.10.14%20-%20Cours%206.md)
+
+## [Cours 7 - Constructeurs de copie](./2022.10.28%20-%20Cours%207.md)
