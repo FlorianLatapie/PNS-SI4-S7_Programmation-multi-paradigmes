@@ -13,3 +13,5 @@
 ## [Cours 6 - Héritage, priorité des opérateurs et Makefile](./2022.10.14%20-%20Cours%206.md)
 
 ## [Cours 7 - Constructeurs de copie](./2022.10.28%20-%20Cours%207.md)
+
+## [Cours 8 - Héritage](./2022.11.18%20-%20Cours%208.md)
