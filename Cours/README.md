@@ -14,4 +14,4 @@
 
 ## [Cours 7 - Constructeurs de copie](./2022.10.28%20-%20Cours%207.md)
 
-## [Cours 8 - Héritage](./2022.11.18%20-%20Cours%208.md)
+## [Cours 8 - Héritage et Fonctions virtuelles](./2022.11.18%20-%20Cours%208.md)
