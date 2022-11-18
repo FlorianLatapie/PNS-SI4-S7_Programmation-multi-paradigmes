@@ -6,8 +6,18 @@
 #define INC_8_STACK_QUEUE_PRIORITY_FILE_H
 
 
-class Queue {
+#include "list-copy.h"
 
+class Queue: protected List {
+public:
+    virtual void put(int value);
+
+    int get();
+
+    bool is_empty();
+
+
+    friend std::ostream &operator<<(std::ostream &os, const Queue &queue);
 };
 
 

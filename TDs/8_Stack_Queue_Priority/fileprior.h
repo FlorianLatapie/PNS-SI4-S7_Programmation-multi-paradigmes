@@ -6,8 +6,11 @@
 #define INC_8_STACK_QUEUE_PRIORITY_FILEPRIOR_H
 
 
-class Priority_Queue {
+#include "file.h"
 
+class Priority_Queue : public Queue {
+public:
+    void put(int value);
 };
 
 

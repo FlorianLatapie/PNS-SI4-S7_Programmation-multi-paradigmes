@@ -28,7 +28,7 @@ int main()
 
     // append, prepend... are FORBIDDEN on stacks and should NOT compile !
     //
-    s.append(12);
+    //s.append(12);
 
     while (!s.is_empty()) OUT(s.pop());
 
