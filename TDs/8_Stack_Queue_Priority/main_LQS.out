@@ -1,0 +1,42 @@
+
+********* Test Stack *********
+
+s : 
+s : 10 
+s : 9 8 7 6 5 4 3 2 1 0 10 
+s.is_empty() : 0
+s.pop() : 9
+s.pop() : 8
+s.pop() : 7
+s.pop() : 6
+s.pop() : 5
+s.pop() : 4
+s.pop() : 3
+s.pop() : 2
+s.pop() : 1
+s.pop() : 0
+s.pop() : 10
+
+********* Test Queue *********
+
+q : 0 1 2 3 4 5 6 7 8 9 
+q.is_empty() : 0
+q.get() : 0
+q.get() : 1
+q.get() : 2
+q.get() : 3
+q.get() : 4
+q.get() : 5
+q.get() : 6
+q.get() : 7
+q.get() : 8
+q.get() : 9
+
+********* Test copy *********
+
+q1 : 0 1 2 3 4 5 6 7 8 9 
+s1 : 9 8 7 6 5 4 3 2 1 0 10 
+
+********* Test Priority_Queue *********
+
+prioq : 0 1 2 3 4 5 6 7 8 9 
