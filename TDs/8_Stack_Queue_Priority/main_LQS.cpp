@@ -9,6 +9,7 @@
 #include "pile.h"
 #include "file.h"
 #include "fileprior.h"
+#include "common_defs.h"
 
 int main()
 {
@@ -62,5 +63,5 @@ int main()
     for (i = 9; i >= 0; --i) pq->put(i); // which <<put>> is called ?
     OUT(*pq);
 
-    return 0;
+return 0;
 }
