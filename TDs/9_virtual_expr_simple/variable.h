@@ -14,7 +14,9 @@ class Variable_Ref : public Expr {
     string name;
     int value;
 public:
-    Variable_Ref(string name) : name(name), value(0) {}
+    Variable_Ref(string name) : name(name), value(0) {
+        variables[name] = value;
+    }
 
     int eval() const override {
         return variables[name];
