@@ -18,7 +18,6 @@ using namespace std;
 // e0 = 3
 Expr *pe0 = new Constant(3);
 
-
 // fe0 = 3!
 Expr *pfe0 = new Factoriel(pe0);
 
@@ -49,7 +48,7 @@ Expr *pe2 = new Binary_Minus(
 int main()
 {
     cout << "e0 = "  << pe0->eval()  << endl;
-    cout <<" e0! = " << pfe0->eval() << endl;
+    cout << "e0! = " << pfe0->eval() << endl;
     cout << "e00 = " << pe00->eval() << endl;
     cout << "e1 = "  << pe1->eval()  << endl;
     cout << "e2 = "  << pe2->eval()  << endl;
@@ -65,5 +64,4 @@ int main()
     Expr *pev = new Binary_Plus(pv, new Constant(1));
     Expr *pv1 = new Assignment(pv, pev);
     cout << "pv1 = " << pv1->eval() << endl;
-    
 }
