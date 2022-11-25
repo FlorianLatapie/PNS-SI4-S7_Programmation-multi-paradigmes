@@ -15,3 +15,7 @@
 ## [6 List simple](./6_List_simple)
 
 ## [7 List copy](./7_List_copy)
+
+## [8 Stack Queue priority](./8_Stack_Queue_Priority)
+
+## [9 Virtual expr simple](./9_virtual_expr_simple)
