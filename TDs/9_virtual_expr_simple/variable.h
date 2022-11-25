@@ -8,7 +8,7 @@
 #include <map>
 #include "expr-abstract.h"
 
-std::map<string, int> variables = {};
+extern std::map<string, int> variables = {};
 
 class Variable_Ref : public Expr {
     string name;
