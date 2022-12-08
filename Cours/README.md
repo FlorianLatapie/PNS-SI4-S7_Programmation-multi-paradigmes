@@ -17,3 +17,5 @@
 ## [Cours 8 - Héritage et Fonctions virtuelles](./2022.11.18%20-%20Cours%208.md)
 
 ## [Cours 9 - Pointeurs, types de classes, et fonctions virtuelles](./2022.11.25%20-%20Cours%209.md)
+
+## [Cours 10 - Types dynamiques $\neq$ types statiques, Généricité, classes et fonctions template](./2022.12.02%20-%20Cours%2010.md)
