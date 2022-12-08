@@ -1,0 +1,8 @@
+Default constructor 1 called
+Copy constructor 2 called
+Inside f
+Copy constructor 3 called
+Destructor 2 called
+End of main()
+Destructor 3 called
+Destructor 1 called

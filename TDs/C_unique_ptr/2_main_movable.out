@@ -1,0 +1,13 @@
+Default constructor 1 called
+Copy constructor 2 called
+Move assignment 1 called
+Copy constructor 3 called
+Inside f
+Move constructor 3 called
+Destructor 3 called
+Between calls
+Move constructor 1 called
+Inside f
+Move constructor 1 called
+End of main()
+Destructor 1 called
