@@ -6,7 +6,7 @@
 // $Id: main_List.cpp,v 1.1 2005/02/20 14:50:29 jpr Exp $
 //=======================================================================
 
-#include "List.h"
+#include "list-template.h"
 
 List<int> SomeFunction()
 {

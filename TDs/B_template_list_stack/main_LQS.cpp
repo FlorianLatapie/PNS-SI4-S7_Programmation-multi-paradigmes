@@ -5,7 +5,7 @@
 // Jean-Paul Rigault --- Copyright 2003
 // $Id: main_LQS.cpp,v 1.2 2004/11/01 15:19:04 jpr Exp $
 //=======================================================================
-
+/*
 #include "Queue.h"
 #include "Stack.h"
 #include "Priority_Queue.h"
@@ -58,3 +58,4 @@ int main()
 
     return 0;
 }
+*/
