@@ -1,5 +1,7 @@
 # TDs
 
+[Source de tous les TDs](http://users.polytech.unice.fr/~lippi/cpp/)
+
 ## [0 intro stl](./0_intro_stl)
 
 ## [1 rationel](./1_rat)
